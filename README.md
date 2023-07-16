@@ -35,7 +35,7 @@ dependencies {
     private List<PreDefinedGradient> presets;
 
    gradient =(Gradient) findViewById(R.id.main_PRO_gradientImage);
-        presets = gradient.getPredefinedGradients();
+   presets = gradient.getPredefinedGradients();
    ```
    the list is to get the predefined gradients that I created
 
